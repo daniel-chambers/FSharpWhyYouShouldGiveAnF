@@ -1,0 +1,24 @@
+@model IEnumerable<FSharpWeb.DataLayer.GameDAL.Game>
+
+<h1>Games</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Developer</th>
+            <th>Platform</th>
+            <th>Has Multiplayer</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var game in Model) { 
+            <tr>
+                <th>@game.Name</th>
+                <td>@game.Developer</td>
+                <td>@game.Platform</td>
+                <td>@(game.HasMultiplayer ? "Yes" : "No")</td>
+            </tr>
+        }
+    </tbody>
+</table>
