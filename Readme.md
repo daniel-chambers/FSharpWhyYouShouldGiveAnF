@@ -9,3 +9,5 @@ To compile the SQLClient type provider code, you’ll need to install the Advent
 
 [1]: http://msftdbprodsamples.codeplex.com/releases/view/55330
 [2]: http://www.mssqltips.com/sqlservertip/2638/attach-sample-database--adventureworks-in-sql-server-2012/
+
+Video: [Alt.NET Melbourne User Group](https://www.youtube.com/watch?v=kKkFabSzZvU)
